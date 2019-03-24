@@ -1,4 +1,27 @@
 {
+<<<<<<< HEAD
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "chatapp"
+  ],
+  "author": "bala",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.19",
+    "nodemon": "^1.18.10",
+    "socket.io": "^2.2.0"
+=======
   "name": "frontend",
   "version": "0.0.0",
   "scripts": {
@@ -45,5 +68,6 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.2.2"
+>>>>>>> 4e7f3c375472c050e8d04666c6c3be162b563208
   }
 }
